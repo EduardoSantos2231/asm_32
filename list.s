@@ -13,7 +13,7 @@ _start:
   add cl, bl; saving the number contained inside cl and increasing the counting
   inc eax
   cmp eax, 4
-  jne END
+  jne loop
 
 END:
  mov eax, 1
